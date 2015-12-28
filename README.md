@@ -55,16 +55,19 @@ This property is false  by default.
 
 Download
 --------
-Not yet.
 
-Download [the latest JAR][4] or grab via Maven:
-```xml
-<! -- Coming soon -->
-```
-or Gradle:
-```groovy
-# Coming soon
-```
+Step 1: Add jitpack to your build.gradle at the end of repositories:
+
+	repositories {
+	    // ...
+	    maven { url "https://jitpack.io" }
+	}
+	
+Step 2: Add the dependency
+
+	dependencies {
+	        compile 'com.github.intrications:SystemUiHelper:1.1'
+	}
 
 Developed By
 ------------
