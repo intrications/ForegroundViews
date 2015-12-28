@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:layout_marginTop="8dp"
     android:background="@drawable/bg_card"
-    custom:foreground="@drawable/fg_card"
+    custom:fv_foreground="@drawable/fg_card"
     >
 
   <TextView

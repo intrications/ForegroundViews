@@ -16,7 +16,7 @@
       android:layout_height="wrap_content"
       android:layout_marginTop="8dp"
       android:background="@drawable/bg_card"
-      custom:foreground="@drawable/fg_card"
+      custom:fv_foreground="@drawable/fg_card"
       >
 
     <com.cesards.android.foregroundviews.ForegroundTextView
@@ -37,7 +37,7 @@
       android:layout_height="wrap_content"
       android:layout_marginTop="8dp"
       android:background="@drawable/bg_card"
-      custom:foreground="@drawable/fg_card"
+      custom:fv_foreground="@drawable/fg_card"
       >
 
     <TextView
@@ -60,7 +60,7 @@
       android:background="@drawable/bg_card"
       android:gravity="center"
       android:text="TextView List"
-      custom:foreground="@drawable/fg_card"
+      custom:fv_foreground="@drawable/fg_card"
       />
 
   <com.cesards.android.foregroundviews.ForegroundTextView
@@ -72,7 +72,7 @@
       android:background="@drawable/bg_card"
       android:gravity="center"
       android:text="ImageView List"
-      custom:foreground="@drawable/fg_card"
+      custom:fv_foreground="@drawable/fg_card"
       />
 
 </LinearLayout>

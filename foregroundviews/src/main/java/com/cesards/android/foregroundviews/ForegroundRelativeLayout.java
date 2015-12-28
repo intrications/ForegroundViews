@@ -53,10 +53,10 @@ public class ForegroundRelativeLayout extends RelativeLayout {
 
     final TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.ForegroundLayout, defStyle, 0);
 
-    final Drawable d = a.getDrawable(R.styleable.ForegroundLayout_foreground);
-    foregroundPadding = a.getBoolean(R.styleable.ForegroundLayout_foregroundInsidePadding, false);
+    final Drawable d = a.getDrawable(R.styleable.ForegroundLayout_fv_foreground);
+    foregroundPadding = a.getBoolean(R.styleable.ForegroundLayout_fv_foregroundInsidePadding, false);
 
-    backgroundAsForeground = a.getBoolean(R.styleable.ForegroundLayout_backgroundAsForeground, false);
+    backgroundAsForeground = a.getBoolean(R.styleable.ForegroundLayout_fv_backgroundAsForeground, false);
 
     // Apply foreground padding for ninepatches automatically
     if (!foregroundPadding && getBackground() instanceof NinePatchDrawable) {
