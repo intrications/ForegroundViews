@@ -66,7 +66,7 @@ Step 1: Add jitpack to your build.gradle at the end of repositories:
 Step 2: Add the dependency
 
 	dependencies {
-	        compile 'com.github.intrications:SystemUiHelper:1.1'
+	        compile 'com.github.intrications:ForegroundViews:2.0.0'
 	}
 
 Developed By
